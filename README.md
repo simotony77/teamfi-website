@@ -38,8 +38,11 @@ npx serve .
 - [ ] **Formulaire de contact** : actuellement en `mailto:` (ouvre le client mail du visiteur).
       Pour un vrai envoi côté serveur, brancher un service type Formspree, Netlify Forms ou
       un endpoint dédié.
-- [ ] **Mentions légales / politique de confidentialité** : à ajouter (obligatoire en France
-      pour un site d'entreprise — SIREN, hébergeur, RGPD).
+- [x] **Mentions légales / politique de confidentialité** : pages créées
+      (`mentions-legales.html`, `politique-confidentialite.html`) avec les données officielles
+      du registre (SIREN 920 381 001, RCS Nanterre, gérant Ouassim Dad). Faire relire à Ouassim,
+      et vérifier le n° de TVA intracommunautaire (FR88 920 381 001, calculé — à confirmer).
+      Mettre à jour la section « Hébergement » si le site quitte GitHub Pages.
 
 ## Sources du contenu
 

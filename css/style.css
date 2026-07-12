@@ -410,6 +410,22 @@ ul { list-style: none; }
 .footer__links a:hover { color: #fff; }
 .footer__legal { font-size: 0.8rem; }
 
+/* ============ Legal pages ============ */
+.legal { padding-top: 9rem; }
+.legal__container { max-width: 780px; }
+.legal h2 {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  color: var(--navy-900);
+  margin: 2.2rem 0 0.6rem;
+}
+.legal p, .legal li { color: var(--muted); font-size: 0.97rem; }
+.legal ul { list-style: disc; padding-left: 1.3rem; margin: 0.6rem 0 1rem; }
+.legal a { color: var(--blue); }
+.legal a:hover { text-decoration: underline; }
+.legal__updated { margin-top: 2.5rem; font-style: italic; font-size: 0.85rem; }
+[data-lang-block="en"] { display: none; }
+
 /* ============ Reveal animation ============ */
 .reveal {
   opacity: 0;

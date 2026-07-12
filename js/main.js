@@ -2,15 +2,18 @@
 
 document.addEventListener("DOMContentLoaded", () => {
   // Current year in footer
-  document.getElementById("year").textContent = new Date().getFullYear();
+  const year = document.getElementById("year");
+  if (year) year.textContent = new Date().getFullYear();
 
   // Mobile menu
   const burger = document.getElementById("navBurger");
   const links = document.getElementById("navLinks");
-  burger.addEventListener("click", () => links.classList.toggle("is-open"));
-  links.querySelectorAll("a").forEach((a) =>
-    a.addEventListener("click", () => links.classList.remove("is-open"))
-  );
+  if (burger && links) {
+    burger.addEventListener("click", () => links.classList.toggle("is-open"));
+    links.querySelectorAll("a").forEach((a) =>
+      a.addEventListener("click", () => links.classList.remove("is-open"))
+    );
+  }
 
   // Scroll reveal
   const observer = new IntersectionObserver(

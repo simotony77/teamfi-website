@@ -74,7 +74,10 @@ const I18N = {
     "contact.form.send": "Envoyer",
 
     "footer.tagline": "Une nouvelle génération de conseil en finance de marché",
-    "footer.rights": "Tous droits réservés"
+    "footer.rights": "Tous droits réservés",
+    "footer.legalNotice": "Mentions légales",
+    "footer.privacy": "Politique de confidentialité",
+    "legal.back": "← Retour au site"
   },
 
   en: {
@@ -147,7 +150,10 @@ const I18N = {
     "contact.form.send": "Send",
 
     "footer.tagline": "A new generation of capital markets consulting",
-    "footer.rights": "All rights reserved"
+    "footer.rights": "All rights reserved",
+    "footer.legalNotice": "Legal notice",
+    "footer.privacy": "Privacy policy",
+    "legal.back": "← Back to site"
   }
 };
 
@@ -157,6 +163,10 @@ function setLanguage(lang) {
   document.querySelectorAll("[data-i18n]").forEach((el) => {
     const key = el.getAttribute("data-i18n");
     if (dict[key] !== undefined) el.innerHTML = dict[key];
+  });
+  // Long-form content (legal pages): show only the block matching the language
+  document.querySelectorAll("[data-lang-block]").forEach((block) => {
+    block.style.display = block.dataset.langBlock === lang ? "block" : "none";
   });
   document.querySelectorAll(".lang-toggle__opt").forEach((opt) => {
     opt.classList.toggle("is-active", opt.dataset.lang === lang);
