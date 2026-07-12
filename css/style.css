@@ -286,20 +286,20 @@ ul { list-style: none; }
   border: 1px solid rgba(255, 255, 255, 0.16);
 }
 
-/* ============ Expertise cards ============ */
-.cards {
+/* ============ Expertise poles ============ */
+.poles {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 1.4rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.6rem;
 }
-.card {
+.pole {
   background: rgba(255, 255, 255, 0.045);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: var(--radius);
-  padding: 2rem 1.7rem;
+  padding: 2.5rem 2.2rem;
   transition: transform 0.25s ease, border-color 0.25s ease, background 0.25s ease;
 }
-.card:hover {
+.pole:hover {
   transform: translateY(-6px);
   border-color: rgba(110, 160, 255, 0.5);
   background: rgba(47, 111, 237, 0.08);
@@ -309,13 +309,28 @@ ul { list-style: none; }
   color: var(--gold);
   margin-bottom: 1rem;
 }
-.card h3 {
+.pole h3 {
   font-family: var(--font-display);
-  font-size: 1.08rem;
-  margin-bottom: 0.7rem;
+  font-size: 1.35rem;
+  margin-bottom: 0.8rem;
   color: #fff;
 }
-.card p { font-size: 0.92rem; color: rgba(255, 255, 255, 0.68); }
+.pole p { font-size: 0.95rem; color: rgba(255, 255, 255, 0.68); }
+.pole__list { margin-top: 1.4rem; display: grid; gap: 0.65rem; }
+.pole__list li {
+  position: relative;
+  padding-left: 1.4rem;
+  font-size: 0.92rem;
+  color: rgba(255, 255, 255, 0.78);
+}
+.pole__list li::before {
+  content: "◆";
+  position: absolute;
+  left: 0;
+  top: 0.1em;
+  font-size: 0.6rem;
+  color: var(--gold);
+}
 
 /* ============ Values ============ */
 .values {
