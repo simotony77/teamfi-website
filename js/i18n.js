@@ -12,7 +12,7 @@ const I18N = {
     "nav.careers": "Carrières",
     "nav.contact": "Contact",
 
-    "hero.kicker": "Conseil en finance de marché & finance quantitative",
+    "hero.kicker": "Cabinet de conseil en finance de marché & finance quantitative",
     "hero.title": "L'expertise <span class=\"accent\">finance de marché</span>, à taille humaine.",
     "hero.sub": "Cabinet indépendant spécialisé en systèmes d'information financiers et en finance quantitative, présent auprès de toutes les grandes BFI de la place parisienne.",
     "hero.cta1": "Découvrir nos expertises",
@@ -55,7 +55,7 @@ const I18N = {
     "values.v2.title": "Sur-mesure",
     "values.v2.text": "Un conseil et des services taillés pour chaque client et chaque consultant : nous prenons le temps d'étudier votre projet et vos aspirations.",
     "values.v3.title": "Équité",
-    "values.v3.text": "Chez Teamfi Conseil, nous traitons tout le monde d'une manière juste et équitable — c'est un engagement, pas un slogan.",
+    "values.v3.text": "Nous assurons un suivi de qualité, à nos consultants comme à nos candidats en devenir. Chaque candidat a vocation à devenir consultant, et tous — candidats comme consultants — sont accompagnés de manière juste et équitable.",
 
     "careers.kicker": "Carrières",
     "careers.title": "Construisez une belle carrière en finance de marché",
@@ -66,6 +66,9 @@ const I18N = {
     "careers.job2.title": "Analyste Quantitatif / IT Quant",
     "careers.job2.meta": "Île-de-France, France · Temps plein",
     "careers.job2.text": "Conception, calibrage et validation de modèles de pricing et de risque sur toutes les classes d'actifs (taux, actions, crédit, FX, matières premières), développement de librairies quantitatives et d'outils front office. Python, C++ ou C#.",
+    "careers.job3.title": "Développeur Algo Trading",
+    "careers.job3.meta": "Île-de-France, France · Temps plein",
+    "careers.job3.text": "Conception et développement de stratégies et d'outils de trading algorithmique au sein des équipes front office : moteurs d'exécution, systèmes à faible latence et automatisation des flux. Solide maîtrise du C++ et/ou Python et bonne connaissance des marchés.",
     "careers.apply": "Postuler",
     "careers.spontaneous": "Aucune offre ne correspond à votre profil ? Envoyez-nous une candidature spontanée — chaque parcours est étudié avec attention.",
 
@@ -93,7 +96,7 @@ const I18N = {
     "nav.careers": "Careers",
     "nav.contact": "Contact",
 
-    "hero.kicker": "Capital markets & quantitative finance consulting",
+    "hero.kicker": "Capital markets & quantitative finance consulting firm",
     "hero.title": "<span class=\"accent\">Capital markets</span> expertise, on a human scale.",
     "hero.sub": "An independent consulting firm specialising in financial information systems and quantitative finance, working with every major corporate & investment bank in Paris.",
     "hero.cta1": "Discover our expertise",
@@ -136,7 +139,7 @@ const I18N = {
     "values.v2.title": "Tailor-made",
     "values.v2.text": "Advice and services designed for each client and each consultant: we take the time to understand your project and your aspirations.",
     "values.v3.title": "Fairness",
-    "values.v3.text": "At Teamfi Conseil, we treat everyone in a fair and equitable way — it's a commitment, not a slogan.",
+    "values.v3.text": "We provide quality support to our consultants and to our future candidates alike. Every candidate is meant to become a consultant, and all of them — candidates and consultants — are supported in a fair and equitable way.",
 
     "careers.kicker": "Careers",
     "careers.title": "Build a great career in capital markets",
@@ -147,6 +150,9 @@ const I18N = {
     "careers.job2.title": "Quantitative Analyst / IT Quant",
     "careers.job2.meta": "Île-de-France, France · Full-time",
     "careers.job2.text": "Design, calibration and validation of pricing and risk models across all asset classes (rates, equities, credit, FX, commodities), development of quantitative libraries and front office tools. Python, C++ or C#.",
+    "careers.job3.title": "Algo Trading Developer",
+    "careers.job3.meta": "Île-de-France, France · Full-time",
+    "careers.job3.text": "Design and development of algorithmic trading strategies and tools within front office teams: execution engines, low-latency systems and flow automation. Strong C++ and/or Python skills and solid markets knowledge.",
     "careers.apply": "Apply",
     "careers.spontaneous": "No opening matches your profile? Send us a spontaneous application — every background is reviewed with care.",
 
