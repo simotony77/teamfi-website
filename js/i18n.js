@@ -66,9 +66,9 @@ const I18N = {
     "careers.job2.title": "Analyste Quantitatif / IT Quant",
     "careers.job2.meta": "Île-de-France, France · Temps plein",
     "careers.job2.text": "Conception, calibrage et validation de modèles de pricing et de risque sur toutes les classes d'actifs (taux, actions, crédit, FX, matières premières), développement de librairies quantitatives et d'outils front office. Python, C++ ou C#.",
-    "careers.job3.title": "Développeur Algo Trading",
+    "careers.job3.title": "Développeur Algo Trading — Java",
     "careers.job3.meta": "Île-de-France, France · Temps plein",
-    "careers.job3.text": "Conception et développement de stratégies et d'outils de trading algorithmique au sein des équipes front office : moteurs d'exécution, systèmes à faible latence et automatisation des flux. Solide maîtrise du C++ et/ou Python et bonne connaissance des marchés.",
+    "careers.job3.text": "Développement backend Java de la plateforme de trading algorithmique d'un desk front office (e-trading) d'une grande BFI parisienne. Vous implémentez la logique algo au sein d'un nouveau composant temps réel, bas de latence et multithread, en interaction continue avec les traders. Forte culture de la performance (gestion mémoire, optimisation) et expérience en environnement de marché exigées.",
     "careers.apply": "Postuler",
     "careers.spontaneous": "Aucune offre ne correspond à votre profil ? Envoyez-nous une candidature spontanée — chaque parcours est étudié avec attention.",
 
@@ -150,9 +150,9 @@ const I18N = {
     "careers.job2.title": "Quantitative Analyst / IT Quant",
     "careers.job2.meta": "Île-de-France, France · Full-time",
     "careers.job2.text": "Design, calibration and validation of pricing and risk models across all asset classes (rates, equities, credit, FX, commodities), development of quantitative libraries and front office tools. Python, C++ or C#.",
-    "careers.job3.title": "Algo Trading Developer",
+    "careers.job3.title": "Algo Trading Developer — Java",
     "careers.job3.meta": "Île-de-France, France · Full-time",
-    "careers.job3.text": "Design and development of algorithmic trading strategies and tools within front office teams: execution engines, low-latency systems and flow automation. Strong C++ and/or Python skills and solid markets knowledge.",
+    "careers.job3.text": "Backend Java development of the algorithmic trading platform on a front office (e-trading) desk at a major Paris investment bank. You implement the algo logic within a new real-time, low-latency, multi-threaded component, in continuous interaction with traders. Strong performance culture (memory management, optimisation) and markets experience required.",
     "careers.apply": "Apply",
     "careers.spontaneous": "No opening matches your profile? Send us a spontaneous application — every background is reviewed with care.",
 
