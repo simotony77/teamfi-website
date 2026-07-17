@@ -81,7 +81,7 @@ const I18N = {
     "contact.form.message": "Message",
     "contact.form.send": "Envoyer",
     "contact.form.ok": "Merci, votre message a bien été envoyé. Nous vous répondrons rapidement.",
-    "contact.form.err": "Une erreur est survenue. Vous pouvez aussi nous écrire directement à contact@teamfi-conseil.fr.",
+    "contact.form.err": "Une erreur est survenue. Vous pouvez aussi nous écrire directement à contact@teamficonseil.com.",
     "apply.subject": "Candidature",
     "apply.prefill": "Bonjour,\n\nJe souhaite postuler au poste suivant : ",
 
@@ -169,7 +169,7 @@ const I18N = {
     "contact.form.message": "Message",
     "contact.form.send": "Send",
     "contact.form.ok": "Thank you, your message has been sent. We'll get back to you shortly.",
-    "contact.form.err": "Something went wrong. You can also email us directly at contact@teamfi-conseil.fr.",
+    "contact.form.err": "Something went wrong. You can also email us directly at contact@teamficonseil.com.",
     "apply.subject": "Application",
     "apply.prefill": "Hello,\n\nI would like to apply for the following position: ",
 

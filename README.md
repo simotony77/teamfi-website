@@ -26,8 +26,10 @@ npx serve .
 
 ## À confirmer avec Ouassim avant mise en ligne
 
-- [ ] **Email de contact** : `contact@teamfi-conseil.fr` est un placeholder — remplacer
-      par la vraie adresse (dans `index.html` : lien mailto + action du formulaire).
+- [x] **Email de contact** : `contact@teamficonseil.com` (fourni par Ouassim). Utilisé dans
+      le lien mailto, l'endpoint Formsubmit du formulaire et les mentions légales. **Reste à
+      activer** : au premier envoi via le formulaire, Formsubmit envoie un email « Activate Form »
+      à cette adresse — cliquer le lien une fois pour activer la remise des messages.
 - [ ] **Adresse postale** : « Paris, France » — préciser si souhaité.
 - [ ] **Logo** : `assets/logo.svg` est une recréation vectorielle du logo officiel (monogramme
       « Fi » or/blanc sur noir). Si le fichier source original (SVG/PNG haute définition) est
