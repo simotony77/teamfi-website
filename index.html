@@ -182,7 +182,7 @@
             <p class="job__meta" data-i18n="careers.job1.meta">Île-de-France, France · Temps plein</p>
             <p data-i18n="careers.job1.text">Interface entre les équipes métiers et IT sur des projets front-to-back stratégiques : refonte des chaînes Risk &amp; P&amp;L (VaR, sensibilités, XVA), déploiement de progiciels (Murex, Summit, Calypso), spécifications fonctionnelles et recette utilisateur.</p>
           </div>
-          <a href="https://www.linkedin.com/jobs/view/4370993761" target="_blank" rel="noopener" class="btn btn--small" data-i18n="careers.apply">Postuler</a>
+          <a href="#contact" class="btn btn--small js-apply" data-i18n="careers.apply">Postuler</a>
         </article>
         <article class="job reveal">
           <div class="job__body">
@@ -190,7 +190,7 @@
             <p class="job__meta" data-i18n="careers.job2.meta">Île-de-France, France · Temps plein</p>
             <p data-i18n="careers.job2.text">Conception, calibrage et validation de modèles de pricing et de risque sur toutes les classes d'actifs (taux, actions, crédit, FX, matières premières), développement de librairies quantitatives et d'outils front office. Python, C++ ou C#.</p>
           </div>
-          <a href="https://www.linkedin.com/jobs/view/4371002647" target="_blank" rel="noopener" class="btn btn--small" data-i18n="careers.apply">Postuler</a>
+          <a href="#contact" class="btn btn--small js-apply" data-i18n="careers.apply">Postuler</a>
         </article>
         <article class="job reveal">
           <div class="job__body">
@@ -198,7 +198,7 @@
             <p class="job__meta" data-i18n="careers.job3.meta">Île-de-France, France · Temps plein</p>
             <p data-i18n="careers.job3.text">Développement backend Java de la plateforme de trading algorithmique d'un desk front office (e-trading) d'une grande BFI parisienne. Vous implémentez la logique algo au sein d'un nouveau composant temps réel, bas de latence et multithread, en interaction continue avec les traders. Forte culture de la performance (gestion mémoire, optimisation) et expérience en environnement de marché exigées.</p>
           </div>
-          <a href="#contact" class="btn btn--small" data-i18n="careers.apply">Postuler</a>
+          <a href="#contact" class="btn btn--small js-apply" data-i18n="careers.apply">Postuler</a>
         </article>
       </div>
       <p class="careers__spontaneous reveal" data-i18n="careers.spontaneous">Aucune offre ne correspond à votre profil ? Envoyez-nous une candidature spontanée — chaque parcours est étudié avec attention.</p>
@@ -218,10 +218,16 @@
           <li><a href="https://www.linkedin.com/company/teamfi-conseil/" target="_blank" rel="noopener">LinkedIn — Teamfi Conseil</a></li>
         </ul>
       </div>
-      <form class="contact-form reveal" action="mailto:contact@teamfi-conseil.fr" method="post" enctype="text/plain">
+      <form class="contact-form reveal" id="contactForm" action="https://formsubmit.co/ajax/contact@teamfi-conseil.fr" method="POST">
+        <!-- Formsubmit configuration -->
+        <input type="hidden" name="_subject" id="formSubject" value="Nouveau message depuis le site Teamfi" />
+        <input type="hidden" name="_template" value="table" />
+        <input type="hidden" name="_captcha" value="false" />
+        <!-- Honeypot anti-spam (hidden from humans) -->
+        <input type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px" />
         <label>
           <span data-i18n="contact.form.name">Nom</span>
-          <input type="text" name="nom" required />
+          <input type="text" name="Nom" required />
         </label>
         <label>
           <span data-i18n="contact.form.email">Email</span>
@@ -229,9 +235,10 @@
         </label>
         <label>
           <span data-i18n="contact.form.message">Message</span>
-          <textarea name="message" rows="5" required></textarea>
+          <textarea name="Message" id="formMessage" rows="5" required></textarea>
         </label>
         <button type="submit" class="btn btn--primary" data-i18n="contact.form.send">Envoyer</button>
+        <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
       </form>
     </div>
   </section>
