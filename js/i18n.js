@@ -25,9 +25,10 @@ const I18N = {
 
     "about.kicker": "À propos",
     "about.title": "Un cabinet indépendant, spécialiste de la finance quantitative",
-    "about.p1": "Teamfi Conseil est un cabinet indépendant spécialisé en systèmes d'information financiers, et notamment en finance quantitative. Nous sommes présents chez toutes les BFI de la place parisienne : Natixis, SGCIB, CACIB, HSBC et BNP Paribas.",
-    "about.p2": "Nous travaillons essentiellement avec des consultants issus des grandes écoles ou de formations d'excellence — ENSIMAG, EFREI, ENSTA, ENSAE, Master El Karoui, Master Laure Élie — toutes séniorités confondues.",
-    "about.p3": "Teamfi Conseil a fait le choix de rester à taille humaine, afin de continuer à assurer un conseil et des services sur-mesure, à nos clients comme à nos précieux consultants.",
+    "about.p1": "Teamfi Conseil est un cabinet de conseil indépendant, spécialisé en systèmes d'information financiers et en finance quantitative.",
+    "about.p2": "Nous intervenons au sein des principales BFI de la place parisienne : Natixis, SGCIB, CACIB, HSBC et BNP Paribas.",
+    "about.p3": "Nous nous appuyons sur des consultants issus des grandes écoles et des formations d'excellence — ENSIMAG, EFREI, ENSTA, ENSAE, Master El Karoui, Master Laure Élie — à tous les niveaux d'expérience.",
+    "about.p4": "Fidèles à notre choix de rester à taille humaine, nous garantissons un accompagnement sur-mesure, aussi bien à nos clients qu'à nos consultants, qui font notre réputation.",
     "about.schools.title": "Un vivier d'excellence",
     "about.schools.sub": "Nos consultants sont issus des meilleures formations en ingénierie et en finance quantitative :",
 
@@ -105,9 +106,10 @@ const I18N = {
 
     "about.kicker": "About us",
     "about.title": "An independent firm, specialised in quantitative finance",
-    "about.p1": "Teamfi Conseil is an independent consulting firm specialising in financial information systems, with a particular focus on quantitative finance. We work with every major corporate & investment bank in Paris: Natixis, SGCIB, CACIB, HSBC and BNP Paribas.",
-    "about.p2": "We work primarily with consultants from France's top engineering schools and elite quantitative programmes — ENSIMAG, EFREI, ENSTA, ENSAE, the El Karoui and Laure Élie masters — across all levels of seniority.",
-    "about.p3": "Teamfi Conseil has chosen to remain a human-scale company, so we can keep delivering tailor-made advice and services to our clients and to our valued consultants alike.",
+    "about.p1": "Teamfi Conseil is an independent consulting firm, specialising in financial information systems and quantitative finance.",
+    "about.p2": "We work within the leading corporate & investment banks in Paris: Natixis, SGCIB, CACIB, HSBC and BNP Paribas.",
+    "about.p3": "We draw on consultants from France's top engineering schools and elite programmes — ENSIMAG, EFREI, ENSTA, ENSAE, the El Karoui and Laure Élie masters — at every level of experience.",
+    "about.p4": "True to our choice to remain a human-scale firm, we provide tailor-made support to our clients as well as to our consultants, who are the foundation of our reputation.",
     "about.schools.title": "A pool of excellence",
     "about.schools.sub": "Our consultants come from the best engineering and quantitative finance programmes:",
 
